@@ -1,0 +1,24 @@
+{
+  "name": "pulseflow-backend",
+  "version": "1.0.0",
+  "description": "PulseFlow AI - CRM to Project Delivery Automation Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "pulseflow",
+    "crm",
+    "project-delivery",
+    "automation",
+    "sqlite"
+  ],
+  "author": "PulseFlow Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7"
+  }
+}
